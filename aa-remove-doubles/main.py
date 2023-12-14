@@ -11,7 +11,7 @@ def main():
     buf = [random.randint(1, 9) * 10 for _ in range(20)]
     print(buf)
 
-    # удаляем дубликатыы
+    # удаляем дубликаты
     i_look_at, cur_length = 0, len(buf)
     while i_look_at < cur_length:
         for ii in range(i_look_at + 1, cur_length):
